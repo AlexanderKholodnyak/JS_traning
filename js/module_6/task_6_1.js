@@ -93,8 +93,8 @@ const users = [
   },
 ];
 // Write code under this line
-//const getUserNames = users.map(user => user.name);
-const getUserNames = arrays.map(array => array.name);
+
+const getUserNames = array => array.map(({ name }) => name);
 console.log(getUserNames(users));
 
 /* [
